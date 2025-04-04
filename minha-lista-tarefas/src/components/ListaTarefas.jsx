@@ -19,7 +19,7 @@ function ListaTarefas() {
 
     return (
         <div>
-            <h2>Lista de Afazeres</h2>
+            <h2>Lista de Tarefas</h2>
             <input
                 type = 'text'
                 value = {novaTarefa}
