@@ -1,0 +1,24 @@
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+button{
+    margin: 40px;
+    background-color: #46F2C5;
+}
+
+input{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    background-color: #D9F5EB;
+}
+
+li{
+    padding: 1%;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 33% 33%;
+}
