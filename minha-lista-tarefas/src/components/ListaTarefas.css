@@ -1,11 +1,12 @@
 h2{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #454545;
 }
 
 button{
     margin: 40px;
     background-color: #46F2C5;
+    color: #454545;
 }
 
 input{
@@ -14,11 +15,37 @@ input{
     max-width: 300px;
     padding: 12px;
     background-color: #D9F5EB;
+    color: #454545;
+    margin: 40px;
 }
 
-li{
-    padding: 1%;
-    background-color: aqua;
-    display: grid;
-    grid-template-columns: 33% 33%;
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    margin: 8px;
+    border-radius: 6px;
+}
+
+li input[type="checkbox"] {
+    accent-color: #F2C646; 
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+li span {
+    flex-grow: 1;
+    color: #454545;
+}
+
+.concluida {
+    text-decoration: line-through;
+}
+
+li button {
+    padding: 6px 12px;
+    color: #454545;
+    border-radius: 6px;
 }
