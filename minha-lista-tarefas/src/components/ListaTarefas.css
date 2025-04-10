@@ -1,14 +1,21 @@
+/*a div estava muito apertada e não cabiam os dois botões, então aumentei a largura dela para 800px.*/
+.divMae{
+    width: 800px;
+}
+
+/*mudei a fonte do subtitulo*/
 h2{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #454545;
 }
 
 button{
-    margin: 40px;
+    margin: 10px;
     background-color: #46F2C5;
     color: #454545;
 }
 
+/*deixei o input com as bordas arredondadas*/
 input{
     border-radius: 10px;
     width: 100%;
@@ -19,6 +26,7 @@ input{
     margin: 40px;
 }
 
+/*layout de cada tarefa mais largo*/
 li {
     display: flex;
     align-items: center;
@@ -28,6 +36,7 @@ li {
     border-radius: 6px;
 }
 
+/*checkbox amarelo*/
 li input[type="checkbox"] {
     accent-color: #F2C646; 
     width: 16px;
@@ -35,11 +44,13 @@ li input[type="checkbox"] {
     margin-right: 8px;
 }
 
+/*sem o flex-grow o texto não risca*/
 li span {
     flex-grow: 1;
     color: #454545;
 }
 
+/*é o que de fato risca o texto*/
 .concluida {
     text-decoration: line-through;
 }

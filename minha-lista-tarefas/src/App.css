@@ -1,14 +1,17 @@
+/*centraliza o conteudo*/
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align: center; 
 }
 
+/*cor de fundo*/
 body{
   background-color: #A5F5C5;
 }
 
+/*muda a fonte do titulo*/
 h1{
   color: #454545;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -20,9 +23,12 @@ h1{
   will-change: filter;
   transition: filter 300ms;
 }
+
+/*brilha se passar o mouse em cima*/
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
